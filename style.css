@@ -14,6 +14,10 @@
     height: 12vh;
     padding: 0 150px;
     border-bottom: 1px solid #6666667f;
+    top: 0;
+    left: 0;
+    right: 0;
+    
 }
 
 .header ul{
@@ -61,5 +65,151 @@ border-radius: 3px;
 .cta-btn:hover{
     background-color: #222;
 }
+
 /*--------end hero section-------*/
+
+/*----section 2 start-----*/
+
+.section-2 {
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.section2-left,
+.section2-right {
+    width: 450px;
+    height: 90vh;
+    
+
+}
+
+.section2-right img{
+width: 550px;
+
+}
+
+
+/*-----trust with confidence start-----*/
+
+.left-heading{
+    font-size: 32px;
+    padding-bottom: 10px;
+    color: #424242;
+
+}
+
+.information-description{
+padding-top: 20px;
+
+}
+
+.information-heading{
+font-size: 20px;
+color: #424242;
+padding-bottom: 10px;
+}
+.information-description{
+    font-size: 16px;
+    color: #666;
+}
+.info-link{
+    text-decoration:none;
+    color: #387ed1;
+}
+.info-link:hover{
+    color: #424242;
+}
+.section-right-link{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+.section-right-link a,
+.Pricing-section-left a {
+color: #387ed1;
+text-decoration: none;
+display: flex;
+align-items: center;
+gap: 20px;
+}
+.section-right-link a:hover,
+.Pricing-section-left a:hover{
+    color: #424242;
+}
+.press-logos-section{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.press-logos-section a:hover{
+    opacity: 1;
+}
+/*----pricing section-----*/
+.Pricing-section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.Pricing-section-left{
+width: 400px;
+}
+.pricing-info{
+    display: flex;
+}
+.pricing-info p{
+    align-self: self-end;
+    font-size: 12px;
+}
+.pricing-heading{
+    color: #424242;
+    font-size: 32px;
+}
+.pricing-desc{
+padding: 28px 0;
+color: #424242;
+}
+.pricing-info img{
+    width: 140px;
+}
+/*----varsity section---*/
+
+.varsity{
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+.varsity-right h1{
+    color: #424242;
+}
+.varsity-right-desc1
+.varsity-right-desc2{
+    color: #424242;
+    font-size: 40px;
+}
+.varsity-right-desc1 a,
+.varsity-right-desc2 a{
+text-decoration: none;
+color: #387ed1;
+
+}
+.varsity-right-desc1 a:hover{
+    color: #424242;
+}
+
+.account h1{
+    display: flex;
+    justify-content: center;
+    color: #424242;
+}
+.account p{
+    display: flex;
+    justify-content: center;
+    color: #666;
+}
 
